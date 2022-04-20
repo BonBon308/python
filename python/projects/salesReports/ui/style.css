@@ -1,0 +1,129 @@
+* {
+    text-align: center;
+    color: rgb(255, 174, 0);
+  }
+
+#p3, #p4{
+    color: aqua;
+    background-color: tomato;
+    border:2px solid aquamarine;
+}
+
+#header1{
+    color:green;
+    text-align: center;
+}
+
+
+.center{
+    text-align: center;
+ 
+}
+
+p.center{
+   
+    color:red;
+    border:2px solid blueviolet;
+}
+
+/* links */
+a:link {
+    color: green;
+    /* background-color: transparent; */
+    text-decoration: none;
+
+    /* button form*/
+    background-color: pink;
+    padding: 15px 25px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;
+}
+
+a:visited {
+    color: purple;
+    /* background-color: transparent; */
+    text-decoration: none;
+
+    /* button form*/
+    background-color: orange;
+    padding: 15px 25px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* when clicked */
+a:active { 
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* table */
+table, th, td {
+    border:1px solid black;
+  }
+
+#windowStatDIV {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #464646;
+    color: #fff;
+    width: 50%;
+  }
+span {
+    font-size: 70px;
+    font-family: 'Segoe UI Light';
+  }
+h1 {
+    margin-top: 0;
+    padding-bottom: 15px;
+    font-family: 'Segoe UI Light';
+    border-bottom: 1px solid #fff;
+  }
+
+  /* #dv-wrapper  {
+    width:100%;
+    position:relativel
+   
+}
+#dv-wrapper p {
+    position:relative;
+    width:100%;
+    text-align:justify;
+    padding:10px;
+}
+.half{
+    width:50%;
+    
+    
+}
+
+.rowYearDIV{
+    float:right;
+    background:red;
+}
+.rowSalesDIV{
+    float:left;
+        background:green;
+}
+
+
+@media only screen and (max-width: 500px) {
+   .half{
+       width:100%;
+    }
+    .rowYearDIV, .rowSalesDIV{
+        float:none;
+    }
+} */
